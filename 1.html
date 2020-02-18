@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+<!--<script type="text/javascript" src="vendor/bootstrap.js"></script> -->
+<!--<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="fonts/fontawesome/css/all.min.css"> -->
+ 	<link rel="stylesheet" href="1.css">
+ 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  	<script type="text/javascript" src="1.js"></script>
+
+  	<!-- Add Google Maps -->
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">GIỚI THIỆU </a></li>
+        <li><a href="#services">DỊCH VỤ </a></li>
+        <li><a href="#portfolio">DỰ ÁN </a></li>
+        <li><a href="#pricing">GIÁ </a></li>
+        <li><a href="#contact">LIÊN HỆ </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center"> 
+	<h1>MYCLASS.VN </h1> 
+	<p>Đội ngũ trẻ - Giàu tâm huyết </p> 
+	<form class="form-inline">
+    		<input type="email" class="form-control" size="50" placeholder="Nhập địa chỉ email của bạn" required>
+    		<button type="button" class="btn btn-danger">Đăng kí theo dõi </button>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Giới thiệu myclass.vn </h2><br>
+      <h4>Myclass.vn - Bên cạnh sản phẩm tâm huyết - Hệ thống dạy lập trình trực tuyến myclass.vn, chúng tôi còn là đơn vị gia công phần mềm cho các công ty trong và ngoài nước với những sản phẩm mang nét khác biệt và theo từng đơn đặt hàng riêng lẻ.</h4><br>
+      <p>Chúng tôi cam kết đến những sản phẩm chất lượng cao nhất, hiện đại nhất, thân thiện với người dùng và myclass.vn đánh giá cao các công việc bảo trì sau khi bàn giao sản phẩm cho khách hàng .</p>
+      <br><button class="btn btn-default btn-lg">Liên hệ với chúng tôi</button>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-signal logo"></span>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+    </div>
+    <div class="col-sm-8">
+      <h2>Giá trị của Myclass.vn mang lại </h2><br>
+      <h4><strong>Sứ mệnh :</strong> Đơn vị tiên phong tại Việt Nam về lĩnh vực đào tạo lập trình trực tuyến. Đơn vị gia công phần mềm với những sản phẩm chất lượng, uy tín cho khách hàng.</h4><br>
+      <p><strong>Tầm nhìn :</strong> Bên cạnh các hệ thống e-learning cho lập tình, chúng tôi còn mở rộng sang các mảng dạy trực tuyến cho nhiều ngành nghề khác và cho nhiều đơn vị khác trong cả nước. Sau khi hoàn thiện trong nước, myclass.vn chúng tôi sẽ mở rộng ra các thị trường Đông Nam Á và thế giới.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h2>Dịch vụ </h2>
+  <h4>Các dịch vụ của chúng tôi bao gồm </h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>Elearing-Framework </h4>
+      <p>Phần mềm khung dạy trực tuyến .</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>Phát triển website </h4>
+      <p>Chúng tôi phát triển website theo các đơn đặt hàng .</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>Hệ thống CRM </h4>
+      <p>Hệ thống quản trị khách hàng CRM .</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>Hệ thống Phòng khám điện tử </h4>
+      <p>Xây dựng hệ thống phòng khám điện tử .</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>Hệ thống quản lý nha khoa </h4>
+      <p>Hệ thống quản lý nha khoa  .</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4 style="color:#303030;">Quản lý kho </h4>
+      <p>Hệ thống quản lý kho .</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+  <h2>Dự án tiêu biểu </h2><br>
+  <h4>Một trong những dự án website myclass.vn đã triển khai </h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/photo1.png" alt="Paris" width="400" height="300">
+        <p><strong>Dự án 1</strong></p>
+        <p>Dự án web 1</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/photo2.png" alt="New York" width="400" height="300">
+        <p><strong>Dự án 2</strong></p>
+        <p>Dự án web 2</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="images/photo3.png" alt="San Francisco" width="400" height="300">
+        <p><strong>Dự án 3 </strong></p>
+        <p>Dự án website 3 </p>
+      </div>
+    </div>
+  </div><br>
+
+
+ <h2>Khách hàng nói về chúng tôi </h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"Cảm ơn myclass.vn đã mang lại những khoá học tuyệt vời."<br><span style="font-style:normal;">Nguyễn Duy , Đại học QG Hà Nội , Bình luận </span></h4>
+      </div>
+      <div class="item">
+        <h4>"Trang web myclass.vn làm cho chúng tôi thật sự ấn tượng... !!"<br><span style="font-style:normal;">Mỹ Linh , Chủ tịch  , Nhakhoaphutho  </span></h4>
+      </div>
+      <div class="item">
+        <h4>"Hệ thống quản lý Kho của myclass.vn đã xây dựng giúp tôi tiết kiệm nhiều thời gian và chi phí "<br><span style="font-style:normal;">Mỹ Lê , Phó giám đốc , Enco </span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+   <!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Bảng giá </h2>
+    <h4>Chọn giá mà bạn muốn xây dựng website </h4>
+  </div>
+  <div class="row slideanim">
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Cơ bản </h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>20</strong> abc </p>
+          <p><strong>15</strong> ad </p>
+          <p><strong>5</strong> </p>
+          <p><strong>2</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$abc </h3>
+          <h4>mỗi tháng </h4>
+          <button class="btn btn-lg">Đăng kí </button>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Nâng cao </h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>50</strong> Lorem</p>
+          <p><strong>25</strong> Ipsum</p>
+          <p><strong>10</strong> Dolor</p>
+          <p><strong>5</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$dfe </h3>
+          <h4>mỗi tháng</h4>
+          <button class="btn btn-lg">Đăng kí </button>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Cao cấp </h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>100</strong> Lorem</p>
+          <p><strong>50</strong> Ipsum</p>
+          <p><strong>25</strong> Dolor</p>
+          <p><strong>10</strong> Sit</p>
+          <p><strong>Endless</strong> Amet</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$dff </h3>
+          <h4>mỗi tháng  </h4>
+          <button class="btn btn-lg">Đăng kí </button>
+        </div>
+      </div>      
+    </div>    
+  </div>
+</div>
+   
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">LIÊN HỆ </h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Hãy liên hệ với chúng tôi, chúng tôi sẽ trả lời trong vòng 8 giờ .</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Hồ Chí Minh, Viet Nam </p>
+      <p><span class="glyphicon glyphicon-phone"></span>  0961.05.10.14</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> support@myclass.vn</p>	   
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Tên " type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Ghi chú " rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Gởi yêu cầu </button>
+        </div>
+      </div>	
+    </div>
+  </div>
+</div>
+
+<div id="googleMap" style="height:400px;width:100%;"></div>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Khoá học web với responsive, bootstrap tại myclasss.vn  <a href="http://www.myclass.vn" title="Myclass.vn ">www.myclass.vn</a></p>		
+</footer> 
+</body>
+</html>
